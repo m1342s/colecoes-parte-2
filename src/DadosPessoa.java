@@ -14,11 +14,16 @@ public class DadosPessoa {
 
     public void setSexo(String sexo) {
         this.sexo = sexo;
-
     }
     public String getSexo() {
         return sexo;
     }
 
-
+    @Override
+    public String toString() {
+        return "DadosPessoa{" +
+                "nome='" + nome + '\'' +
+                ", sexo='" + sexo + '\'' +
+                '}';
+    }
 }
